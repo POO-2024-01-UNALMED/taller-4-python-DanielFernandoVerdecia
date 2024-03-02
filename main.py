@@ -2,6 +2,8 @@ from classroom.asignatura import Asignatura
 from classroom.grupo import Grupo
 
 if __name__ == "__main__":
+
+
     asignatura1 = Asignatura("Matematicas")
     asignatura2 = Asignatura("Castellano", "Salon 201")
     grupo1 = Grupo()
@@ -30,3 +32,10 @@ if __name__ == "__main__":
     print(Grupo.grado)
     Grupo.asignarNombre()
     print(Grupo.grado)
+ 
+
+    
+        
+
+    
+   
